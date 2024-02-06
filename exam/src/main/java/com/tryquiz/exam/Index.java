@@ -14,10 +14,7 @@ public class Index {
         public String about(){
         return "about";
         }
-        @RequestMapping("/login")
-    public String login(){
-        return "login";
-    }
+
     @RequestMapping("/signup")
     public String signup(){
         return "signup";
